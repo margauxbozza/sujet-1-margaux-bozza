@@ -1,0 +1,409 @@
+body {
+  background: #D66B2B;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.pindex h1 {
+  font-family: Cyrene;
+  font-size: 90px;
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 0;
+  animation: float 6s ease-in-out infinite;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.title {
+  font-family: Montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 20px;
+}
+
+#index {
+  font-family: Montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 55vw;
+  margin-top: 0;
+  margin: 0 auto;
+  min-height: 5vh;
+  min-width: 30%;
+}
+
+.btn {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background: brown;
+  color: beige;
+  border: none;
+  transition: 1.5s ease-out;
+}
+
+.pindex iframe {
+  display: flex;
+  margin: auto;
+  padding-top: 30px;
+}
+
+#page1 .content-block{
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+#page1 .enfant1{
+  flex-basis: 50%;
+}
+
+#page1 .enfant1 h2 {
+  color: white;
+  font-family: Cyrene;
+  font-size: 130px;
+}
+
+#page1 .enfant1 p {
+  color: white;
+  font-family: Montserrat;
+  font-size: 25px;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+#page1 .enfant2 {
+  display: flex;
+  flex : auto;
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+  }
+
+#page1 a {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  max-width: 100px;
+}
+
+a:hover {
+  background: brown;
+  color: beige;
+  border: none;
+  transition: 1.5s ease-out;
+}
+
+.footer {
+  padding-top: 30px;
+}
+
+
+#page2 .content-block{
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+#page2 .enfant1{
+  flex-basis: 50%;
+}
+
+#page2 .enfant1 h2 {
+  color: white;
+  font-family: Cyrene;
+  font-size: 130px;
+}
+
+#page2 .enfant1 p {
+  color: white;
+  font-family: Montserrat;
+  font-size: 25px;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+#page2 .enfant2 {
+  display: flex;
+  flex : auto;
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+  }
+
+#page2 a {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  max-width: 100px;
+}
+
+#page3 .content-block{
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+#page3 .enfant1{
+  flex-basis: 50%;
+}
+
+#page3 .enfant1 h2 {
+  color: white;
+  font-family: Cyrene;
+  font-size: 130px;
+}
+
+#page3 .enfant1 p {
+  color: white;
+  font-family: Montserrat;
+  font-size: 25px;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+#page3 .enfant2 {
+  display: flex;
+  flex : auto;
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+  }
+
+#page3 a {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  max-width: 100px;
+}
+
+#page4 .content-block{
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+#page4 .enfant1{
+  flex-basis: 50%;
+}
+
+#page4 .enfant1 h2 {
+  color: white;
+  font-family: Cyrene;
+  font-size: 100px;
+}
+
+#page4 .enfant1 p {
+  color: white;
+  font-family: Montserrat;
+  font-size: 25px;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+#page4 .enfant2 {
+  display: flex;
+  flex : auto;
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+  }
+
+#page4 a {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  max-width: 100px;
+}
+
+#page5 .content-block{
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+#page5 .enfant1{
+  flex-basis: 50%;
+}
+
+#page5 .enfant1 h2 {
+  color: white;
+  font-family: Cyrene;
+  font-size: 130px;
+}
+
+#page5 .enfant1 p {
+  color: white;
+  font-family: Montserrat;
+  font-size: 25px;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+#page5 .enfant2 {
+  display: flex;
+  flex : auto;
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+  }
+
+#page5 a {
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  max-width: 100px;
+}
